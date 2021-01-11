@@ -1,0 +1,9 @@
+__pycache__
+.vscode
+build_info
+pavement.pyc
+_build
+_intermediate
+course
+_tmp
+update.py
