@@ -1,6 +1,6 @@
 # Projektna nastava za šesti razred osnovne škole računarstvo
 
-Ovaj repozitorijum posvećen je kursu za Projektnu nastavu za šesti razred osnovne škole računarstvo. 
+Ovaj repozitorijum posvećen je priručniku za Projektnu nastavu za šesti razred osnovne škole računarstvo. 
 
 Kurs je na Petljom portalu dotupan ovde: [https://petlja.org/biblioteka/r/kursevi/6_projektni_zadatak_programiranje](https://petlja.org/biblioteka/r/kursevi/6_projektni_zadatak_programiranje)
 
