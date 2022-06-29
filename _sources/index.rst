@@ -21,3 +21,4 @@
     kalkulator_za_kupovinu.rst
     geografija.rst
     reciklaza.rst
+    solarna_elektrana.rst
