@@ -26,13 +26,9 @@
     <link rel="stylesheet" type="text/css" href="_static/webglinteractive.css" />
     <link rel="stylesheet" type="text/css" href="_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="_static/simanim.css" />
-    <link rel="stylesheet" type="text/css" href="_static/pycode.css" />
-    <link rel="stylesheet" type="text/css" href="_static/p5js.css" />
     <link rel="stylesheet" type="text/css" href="_static/gallery.css" />
-    <link rel="stylesheet" type="text/css" href="_static/dbDirective.css" />
     <link rel="stylesheet" type="text/css" href="_static/associations.css" />
-    <link rel="stylesheet" type="text/css" href="_static/regex-check.css" />
+    <link rel="stylesheet" type="text/css" href="_static/editor.css" />
     <link rel="stylesheet" href="_static/user-highlights.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
     <link rel="stylesheet" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
@@ -112,44 +108,12 @@
     <script type="text/javascript" src="_static/karel-i18n.en.js"></script>
     <script type="text/javascript" src="_static/notes.js"></script>
     <script type="text/javascript" src="_static/pygamelib-init.js"></script>
-    <script type="text/javascript" src="_static/blockly/blockly_compressed.js"></script>
-    <script type="text/javascript" src="_static/blockly/blocks_compressed.js"></script>
-    <script type="text/javascript" src="_static/blockly/python_compressed.js"></script>
-    <script type="text/javascript" src="_static/blockly/msg-sr.js"></script>
-    <script type="text/javascript" src="_static/blockpy/utilities.js"></script>
-    <script type="text/javascript" src="_static/blockpy/python_errors.js"></script>
-    <script type="text/javascript" src="_static/blockpy/ast_node_visitor.js"></script>
-    <script type="text/javascript" src="_static/blockpy/abstract_interpreter.js"></script>
-    <script type="text/javascript" src="_static/blockpy/pytifa.js"></script>
-    <script type="text/javascript" src="_static/blockpy/abstract_interpreter_definitions.js"></script>
-    <script type="text/javascript" src="_static/blockpy/python_to_blockly.js"></script>
-    <script type="text/javascript" src="_static/blockpy/imported.js"></script>
-    <script type="text/javascript" src="_static/blockpy/blocks/class.js"></script>
-    <script type="text/javascript" src="_static/blockpy/blocks/comment.js"></script>
-    <script type="text/javascript" src="_static/blockpy/blocks/comprehensions.js"></script>
-    <script type="text/javascript" src="_static/blockpy/blocks/dict.js"></script>
-    <script type="text/javascript" src="_static/blockpy/blocks/if.js"></script>
-    <script type="text/javascript" src="_static/blockpy/blocks/io.js"></script>
-    <script type="text/javascript" src="_static/blockpy/blocks/lists.js"></script>
-    <script type="text/javascript" src="_static/blockpy/blocks/sets.js"></script>
-    <script type="text/javascript" src="_static/blockpy/blocks/loops.js"></script>
-    <script type="text/javascript" src="_static/blockpy/blocks/parking.js"></script>
-    <script type="text/javascript" src="_static/blockpy/blocks/tuple.js"></script>
-    <script type="text/javascript" src="_static/blockpy/blocks/turtles.js"></script>
-    <script type="text/javascript" src="_static/blockpy/blocks/text.js"></script>
-    <script type="text/javascript" src="_static/blockpy-modal.js"></script>
-    <script type="text/javascript" src="_static/simanim.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
-    <script type="text/javascript" src="_static/pycode.js"></script>
-    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-    <script type="text/javascript" src="_static/p5js.js"></script>
     <script type="text/javascript" src="_static/gallery.js"></script>
-    <script type="text/javascript" src="_static/dbDirective.js"></script>
-    <script type="text/javascript" src="_static/sql.js"></script>
     <script type="text/javascript" src="_static/associations.js"></script>
     <script type="text/javascript" src="_static/associations-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/regex-check.js"></script>
-    <script type="text/javascript" src="_static/regex-check-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/editor.js"></script>
+    <script type="text/javascript" src="_static/jszip.js"></script>
+    <script type="text/javascript" src="_static/editor-i18n.en.js"></script>
     <script type="text/javascript" src="_static/jquery-ui-1.10.3.custom.min.js"></script>
     <script type="text/javascript" src="_static/jquery-fix.js"></script>
     <script type="text/javascript" src="_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
@@ -226,39 +190,35 @@
   
   <div class="section" id="id1">
 <h1>Увод<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<p>У овом приручнику ћеш наћи</p>
+<p>У следећем упутству ћеш сазнати:</p>
 <ul class="simple">
-<li><p>где су корени пројектне наставе?</p></li>
-<li><p>нека појашњења у вези са пројектном наставом</p></li>
-<li><p>упутства за израду пројектног задатка</p></li>
-<li><p>предлоге пројектних задатака.</p></li>
+<li><p>шта је то пројекат</p></li>
+<li><p>упутства како да самостално урадиш пројекат</p></li>
+<li><p>идеје за твој пројектни задатак.</p></li>
 </ul>
-<p>Пре него кренемо да се детаљније бавимо самом пројектном наставом, хајде да видимо где су корени пројектне наставе. Погледајмо следећи видео.</p>
-
-    <div  id="kwFXaCvCBb0" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
-        <div style="background-image: url('https://img.youtube.com/vi/kwFXaCvCBb0/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
-        </div>
-      
-
-        </div>
-    <div id="modal-kwFXaCvCBb0" class="ytvideoclose" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(128, 182, 128, 0.3); z-index: 10000;">
-        <div style="background-color: white; position: fixed; top: 4vh; left: 5vw; width:  90vw; height:  90vh; z-index: 100;" id="YTmodal-kwFXaCvCBb0">
-        </div>
-    </div>
-    
-    
-    <p>Предлози пројектних задатака су ту да ти дају инспирацију и идеју шта све можеш да урадиш. Пре него што одлучиш шта ће бити тема твог пројекта, било би корисно да укратко упознаш сваки од предложених пројеката. После тога размисли и смисли или одабери свој пројекат у договору са наставником. Можеш и да искористиш неки од предложених пројеката као полазиште, а затим да га измениш по жељи. Препоручујемо ти да пројекат бираш или смишљаш тако</p>
+<p>Пројекат је сложенији задатак у коме чланови пројектног тима деле посао на мање делове (активности) како би дошли до
+решења пројектног задатка односно до циљева пројекта.</p>
+<p>Препоручујемо ти да пројектни задатак бираш или смишљаш тако</p>
 <ul class="simple">
 <li><p>да ти буде занимљив за рад</p></li>
 <li><p>да буде користан теби или другима</p></li>
 <li><p>да буде довољно тежак да ти буде изазов, а довољно лак да можеш да га урадиш</p></li>
 </ul>
-<p>Пожељно је да се пројектни задаци баве реалним темама из школског или свакодневног живота. Ово није неопходно, али свакако чини пројекат вреднијим.
-Сваки предложени пројекат је започет и донекле одрађен, а твој задатак је (уколико одабереш баш тај пројекат) да довршиш разраду и да оствариш пројекат.</p>
-<p>Имај на уму да се предложени пројектни задаци међусобно разликују по труду и знању потребном да се задатак обави. Ознаке тежине пројеката намерно нису дате, да бисмо те подстакли да упознаш оквирно све предложене пројекте и покушаш самостално да процениш њихову тежину. Ово можеш да радиш и заједно са наставником и/или школским друговима и другарицама.</p>
+<p>Пожељно је да се пројектни задаци баве реалним темама из школског или свакодневног живота. Ово није неопходно,
+али свакако чини пројекат вреднијим.</p>
+<p>Идеје пројектних задатака које се налазе у овом приручнику су ту да ти дају инспирацију за твој пројекат.
+Пре него што одлучиш шта ће бити тема
+твог пројекта, било би корисно да укратко упознаш сваки од предложених пројеката. После тога размисли и смисли
+или одабери свој пројекат у договору са наставником. Такође, можеш и да искористиш неки од предложених пројеката као полазиште,
+а затим да га измениш по жељи.</p>
+<p>Сваки предложени пројекат је започет и донекле одрађен, а твој задатак је (уколико одабереш баш тај пројекат)
+да довршиш разраду и да оствариш пројекат.</p>
+<p>Имај на уму да се предложени пројектни задаци међусобно разликују по труду и знању потребном да се задатак обави.
+Ознаке тежине пројеката намерно нису дате, да бисмо те подстакли да упознаш све предложене пројекте и покушаш
+самостално да процениш њихову тежину. Ово можеш да радиш и заједно са наставником и/или школским друговима и другарицама.</p>
 <p>Желимо ти да успешно завршиш свој пројекат и кроз рад на њему да стекнеш нова знања и способности.</p>
-<p>Уколико ти се искуство рада на пројекту допадне, било би сјајно да касније пробаш да смислиш или одабереш, а затим и урадиш још неки пројекат, или више њих.</p>
+<p>Уколико ти се искуство рада на пројекту допадне, било би сјајно да касније пробаш да смислиш или одабереш,
+а затим и урадиш још неки пројекат, или више њих.</p>
 </div>
 
 
