@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Петља - Пројектни задаци за пети разред - рачунарство'
+project = 'Петља - Пројектни задаци за шести разред - рачунарство'
 #pylint: disable=redefined-builtin
 copyright = '2020 petlja'
 
@@ -139,7 +139,7 @@ html_theme = 'petljadoc_runestone_theme'
 #html_theme_options = {'nosidebar': 'true'}
 html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
-    'navbar_title': "Петља - Пројектни задаци за пети разред - рачунарство",
+    'navbar_title': "Петља - Пројектни задаци за шести разред - рачунарство",
 
     # Tab name for entire site. (Default: "Site")
     'navbar_site_name': "Chapters",
@@ -185,10 +185,10 @@ html_theme_path = ["_templates/plugin_layouts"]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'Петља - Пројектни задаци за пети разред - рачунарство'
+html_title = 'Петља - Пројектни задаци за шести разред - рачунарство'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title ='Петља - Пројектни задаци за пети разред - рачунарство'
+html_short_title ='Петља - Пројектни задаци за шести разред - рачунарство'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
