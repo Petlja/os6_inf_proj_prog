@@ -60,11 +60,11 @@
    n = int(input("Unesi broj komada ambalaže za reciklažu:"))
    if n < 3:
         ucenik_k = ucenik_k + n
-   elif n<=5:
+   elif n <= 5:
         ucenik_k = ucenik_k + 2*n
    else:
         ucenik_k = ucenik_k + 3*n 
-   print(ucenikk)
+   print(ucenik_k)
 
 
 Oбратити пажњу да ученика који први пут доноси материјал на рециклирање треба уписати (додати) у листу ученика који рециклирају амбалажу. Претходни код је написан тако као да се само броји први унос
