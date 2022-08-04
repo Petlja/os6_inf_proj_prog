@@ -39,15 +39,22 @@
 
 .. code::
 
-   import random
-   gradovi = [("Njujork", "Amerika", "Engleska", "Španija"), ("Beč", "Nemačka", "Austrija", "Australija"), ("Prag", "Češka", "Rusija", "Slovačka")]
-   k = random.randint(0,2)
-   print("Kojoj drzavi pripada grad", gradovi[k][0], "? Ponuđene države su:", gradovi[k][1],",", gradovi[k][2], ",",gradovi[k][3])
-   drzava = input()
-   if drzava == gradovi[k][1] :
-             print("Bravo! Dobiliste 1 poen!")
-   else:
-             print("Nije tacno! Probajte ponovo!")
+    import random
+    gradovi = [("Njujork", "Amerika", "Engleska", "Amerika", "Španija"), ("Beč", "Austrija", "Nemačka", "Austrija", "Australija"), ("Prag", "Češka", "Rusija", "Slovačka", "Češka")]
+    k = random.randint(0,2)
+    print("Kojoj drzavi pripada grad", gradovi[k][0], "? Ponuđene države su:", gradovi[k][2],",", gradovi[k][3], ",",gradovi[k][4])
+    drzava = input()
+    if drzava == gradovi[k][1] :
+            print("Bravo! Dobiliste 1 poen!")
+    else:
+            print("Nije tacno! Probajte ponovo!")
+
+Приказана листа се састоји од три елемента. Сваки елемент листе се састоји од пет елемената где први (на
+позицији 0)
+представља име града, затим име државе (на позицији 1) која је тачан одговор, па следе три имена држава (на
+позицијама 2, 3 и 4)
+која ће бити 
+понуђена као одговори.
 
 Овде је битно прокоментарисати да је у коду потребно додати много више држава него што смо ми ставили у листу. Игра ће бити много занимљивија ако је број држава већи. Такође, како је ово игра 
 требало би да се води рачуна о променљивој која памти број освојених поена. Дакле, када играч погоди државу у којој се налази задати град, број поена би требало да се увећа за 1. На самом почетку,
