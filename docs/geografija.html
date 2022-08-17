@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Предлог пројекта - Упознај свет &#8212; Петља - Пројектни задаци за пети разред - рачунарство</title>
+<title>Предлог пројекта - Упознај свет &#8212; Петља - Пројектни задаци за шести разред - рачунарство</title>
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
@@ -177,7 +177,7 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 10px; margin-left: 25px;">
       <ul class="nav navbar-nav " style="width: 90%;">
-        <li class="active"><a style="text-align: center;" href="./">Петља - Пројектни задаци за пети разред - рачунарство</a></li>
+        <li class="active"><a style="text-align: center;" href="./">Петља - Пројектни задаци за шести разред - рачунарство</a></li>
       </ul>
     </div>
   </div>
@@ -195,7 +195,9 @@
 <p>Ево једног мало забавнијег начина да научиш ком округу припадају неки већи градови Србије.</p>
 <a class="reference internal image-reference" href="_images/njujork.jpg"><img alt="Њујорк" class="align-center" src="_images/njujork.jpg" style="width: 300px;" /></a>
 
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
             <p>
 <p>Циљ овог пројекта је да направиш програм, који кроз једноставну игру омогућава учење положаја градова у свету. Програм је довољно једноставан за употребу да може да буде интересантан и млађима, а повезан је са школским градивом па може да буде интересантан и старијима.</p>
@@ -217,16 +219,22 @@
 <h3>Код, променљиве<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <p>Један од начина да се напише код је следећи:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
-<span class="n">gradovi</span> <span class="o">=</span> <span class="p">[(</span><span class="s2">&quot;Njujork&quot;</span><span class="p">,</span> <span class="s2">&quot;Amerika&quot;</span><span class="p">,</span> <span class="s2">&quot;Engleska&quot;</span><span class="p">,</span> <span class="s2">&quot;Španija&quot;</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;Beč&quot;</span><span class="p">,</span> <span class="s2">&quot;Nemačka&quot;</span><span class="p">,</span> <span class="s2">&quot;Austrija&quot;</span><span class="p">,</span> <span class="s2">&quot;Australija&quot;</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;Prag&quot;</span><span class="p">,</span> <span class="s2">&quot;Češka&quot;</span><span class="p">,</span> <span class="s2">&quot;Rusija&quot;</span><span class="p">,</span> <span class="s2">&quot;Slovačka&quot;</span><span class="p">)]</span>
+<span class="n">gradovi</span> <span class="o">=</span> <span class="p">[(</span><span class="s2">&quot;Njujork&quot;</span><span class="p">,</span> <span class="s2">&quot;Amerika&quot;</span><span class="p">,</span> <span class="s2">&quot;Engleska&quot;</span><span class="p">,</span> <span class="s2">&quot;Amerika&quot;</span><span class="p">,</span> <span class="s2">&quot;Španija&quot;</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;Beč&quot;</span><span class="p">,</span> <span class="s2">&quot;Austrija&quot;</span><span class="p">,</span> <span class="s2">&quot;Nemačka&quot;</span><span class="p">,</span> <span class="s2">&quot;Austrija&quot;</span><span class="p">,</span> <span class="s2">&quot;Australija&quot;</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;Prag&quot;</span><span class="p">,</span> <span class="s2">&quot;Češka&quot;</span><span class="p">,</span> <span class="s2">&quot;Rusija&quot;</span><span class="p">,</span> <span class="s2">&quot;Slovačka&quot;</span><span class="p">,</span> <span class="s2">&quot;Češka&quot;</span><span class="p">)]</span>
 <span class="n">k</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Kojoj drzavi pripada grad&quot;</span><span class="p">,</span> <span class="n">gradovi</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="s2">&quot;? Ponuđene države su:&quot;</span><span class="p">,</span> <span class="n">gradovi</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="mi">1</span><span class="p">],</span><span class="s2">&quot;,&quot;</span><span class="p">,</span> <span class="n">gradovi</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="mi">2</span><span class="p">],</span> <span class="s2">&quot;,&quot;</span><span class="p">,</span><span class="n">gradovi</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="mi">3</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Kojoj drzavi pripada grad&quot;</span><span class="p">,</span> <span class="n">gradovi</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="s2">&quot;? Ponuđene države su:&quot;</span><span class="p">,</span> <span class="n">gradovi</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="mi">2</span><span class="p">],</span><span class="s2">&quot;,&quot;</span><span class="p">,</span> <span class="n">gradovi</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="mi">3</span><span class="p">],</span> <span class="s2">&quot;,&quot;</span><span class="p">,</span><span class="n">gradovi</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="mi">4</span><span class="p">])</span>
 <span class="n">drzava</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
 <span class="k">if</span> <span class="n">drzava</span> <span class="o">==</span> <span class="n">gradovi</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="p">:</span>
-          <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Bravo! Dobiliste 1 poen!&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Bravo! Dobiliste 1 poen!&quot;</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
-          <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Nije tacno! Probajte ponovo!&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Nije tacno! Probajte ponovo!&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
+<p>Приказана листа се састоји од три елемента. Сваки елемент листе се састоји од пет елемената где први (на
+позицији 0)
+представља име града, затим име државе (на позицији 1) која је тачан одговор, па следе три имена држава (на
+позицијама 2, 3 и 4)
+која ће бити
+понуђена као одговори.</p>
 <p>Овде је битно прокоментарисати да је у коду потребно додати много више држава него што смо ми ставили у листу. Игра ће бити много занимљивија ако је број држава већи. Такође, како је ово игра
 требало би да се води рачуна о променљивој која памти број освојених поена. Дакле, када играч погоди државу у којој се налази задати град, број поена би требало да се увећа за 1. На самом почетку,
 док игра још није почела број поена мора бити постављен на нулу.</p>
