@@ -3,8 +3,8 @@
 
 Мотивација
 ----------
-.. image:: ../_images/Solar_energy.jpg
-    :width: 200px
+.. image:: ../_images/Solar_energy.png
+    :width: 780px
     :align: center
     
 Овим пројектом желимо да подигнемо свест о значају еколошке производње енергије данас. Сви знамо да је на нашој планети 
