@@ -2,7 +2,7 @@
 
 Ovaj repozitorijum posvećen je priručniku za Projektnu nastavu za šesti razred osnovne škole računarstvo. 
 
-Kurs je na Petljom portalu dotupan ovde: [https://petlja.org/biblioteka/r/kursevi/6_projektni_zadatak_programiranje](https://petlja.org/biblioteka/r/kursevi/6_projektni_zadatak_programiranje)
+Kurs je na Petljinom portalu dotupan ovde: [https://petlja.org/biblioteka/r/kursevi/6_projektni_zadatak_programiranje](https://petlja.org/biblioteka/r/kursevi/6_projektni_zadatak_programiranje)
 
 
 ## Konverzija u *HTML*
